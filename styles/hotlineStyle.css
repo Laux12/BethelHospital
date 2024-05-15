@@ -1,0 +1,72 @@
+.main-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: white;
+  width: 600px;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 50px 5px rgb(197, 197, 197);
+}
+.title-container {
+  width: 100%;
+  padding: 20px 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #0e46a3, #1965de);
+}
+.contact-container {
+  display: grid;
+  width: 100%;
+  gap: 20px;
+  padding: 10px 30px;
+  grid-template-columns: 1fr;
+}
+.numbers-container {
+  background-color: green;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.phone-icon-container {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0e46a3;
+  color: white;
+  font-size: 18px;
+}
+.name-container {
+  flex: 1;
+  background-color: rgb(222, 222, 222);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 500;
+}
+.phone-container {
+  height: 100%;
+  background-color: rgb(255, 186, 58);
+  padding: 5px 10px;
+  font-size: 17px;
+  min-width: 153px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
